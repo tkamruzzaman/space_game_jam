@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 797fc7c43a3db9441a2fbc761c5cfbb3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4586511574186002697
+    second: Replace_Logo_0
+  - first:
+      213: 7746784723025375730
+    second: Replace_Logo_1
+  - first:
+      213: 6209099335415331871
+    second: Replace_Logo_2
+  - first:
+      213: -4447071904998987344
+    second: Replace_Logo_3
+  - first:
+      213: -1511403966459486356
+    second: Replace_Logo_4
+  - first:
+      213: -1133637389776219756
+    second: Replace_Logo_5
+  - first:
+      213: -1579449140894742542
+    second: Replace_Logo_6
+  - first:
+      213: 7273520326805584871
+    second: Replace_Logo_7
+  - first:
+      213: 733895987825181682
+    second: Replace_Logo_8
+  - first:
+      213: 5194254907825439503
+    second: Replace_Logo_9
+  - first:
+      213: 2507989227541006853
+    second: Replace_Logo_10
+  - first:
+      213: 3982704004203338966
+    second: Replace_Logo_11
+  - first:
+      213: -1236353106918406792
+    second: Replace_Logo_12
+  - first:
+      213: -7462368209229925397
+    second: Replace_Logo_13
+  - first:
+      213: 298372412638627145
+    second: Replace_Logo_14
+  - first:
+      213: -7544390530532303588
+    second: Replace_Logo_15
+  - first:
+      213: -4700481160203094902
+    second: Replace_Logo_16
+  - first:
+      213: 1579525764541274766
+    second: Replace_Logo_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Replace_Logo_0
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 563
+        width: 499
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9090391f9ff86af30800000000000000
+      internalID: 4586511574186002697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_1
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 577
+        width: 210
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1b95f49ab128b60800000000000000
+      internalID: 7746784723025375730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_2
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 753
+        width: 55
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c7b86c2f62b2650800000000000000
+      internalID: 6209099335415331871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_3
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 538
+        width: 159
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b96aebf9a3d842c0800000000000000
+      internalID: -4447071904998987344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_4
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 566
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fd01ba91a660be0800000000000000
+      internalID: -1511403966459486356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_5
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 560
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491994edcc28440f0800000000000000
+      internalID: -1133637389776219756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 457
+        width: 79
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f74c28ef5ba41ae0800000000000000
+      internalID: -1579449140894742542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_7
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 448
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb74d1533cb0f460800000000000000
+      internalID: 7273520326805584871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_8
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 443
+        width: 90
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3876833825f2a00800000000000000
+      internalID: 733895987825181682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_9
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 444
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03c3cd7153b51840800000000000000
+      internalID: 5194254907825439503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_10
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 445
+        width: 101
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a86102aea2ec220800000000000000
+      internalID: 2507989227541006853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_11
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 467
+        width: 81
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcd018c038654730800000000000000
+      internalID: 3982704004203338966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_12
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 453
+        width: 85
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8758d25566797dee0800000000000000
+      internalID: -1236353106918406792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_13
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 450
+        width: 90
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3bea9a6a7507890800000000000000
+      internalID: -7462368209229925397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_14
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 441
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9450a12e028042400800000000000000
+      internalID: 298372412638627145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_15
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 444
+        width: 107
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d1dccc8c0fc4790800000000000000
+      internalID: -7544390530532303588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_16
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 532
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84bdacf94984ceb0800000000000000
+      internalID: -4700481160203094902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replace_Logo_17
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 524
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a5f0d605a9be510800000000000000
+      internalID: 1579525764541274766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Replace_Logo_0: 4586511574186002697
+      Replace_Logo_1: 7746784723025375730
+      Replace_Logo_10: 2507989227541006853
+      Replace_Logo_11: 3982704004203338966
+      Replace_Logo_12: -1236353106918406792
+      Replace_Logo_13: -7462368209229925397
+      Replace_Logo_14: 298372412638627145
+      Replace_Logo_15: -7544390530532303588
+      Replace_Logo_16: -4700481160203094902
+      Replace_Logo_17: 1579525764541274766
+      Replace_Logo_2: 6209099335415331871
+      Replace_Logo_3: -4447071904998987344
+      Replace_Logo_4: -1511403966459486356
+      Replace_Logo_5: -1133637389776219756
+      Replace_Logo_6: -1579449140894742542
+      Replace_Logo_7: 7273520326805584871
+      Replace_Logo_8: 733895987825181682
+      Replace_Logo_9: 5194254907825439503
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
