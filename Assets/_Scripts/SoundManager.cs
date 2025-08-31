@@ -23,7 +23,7 @@ public class SoundManager : MonoBehaviour
 
         musicSource.clip = clip;
         musicSource.loop = loop;
-        musicSource.Play();
+       if (musicSource != null) musicSource.Play();
     }
 
     public void StopMusic()
@@ -38,7 +38,7 @@ public class SoundManager : MonoBehaviour
     {
         if (clip == null) return;
 
-        sfxSource.PlayOneShot(clip);
+        if (sfxSource != null) sfxSource.PlayOneShot(clip);
     }
 
     public void PlayButtonClick()
