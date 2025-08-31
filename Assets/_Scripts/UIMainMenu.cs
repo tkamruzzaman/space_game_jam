@@ -9,12 +9,13 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] Button playButton;
     [SerializeField] Button exitButton;
 
-    void Awake()
+    void Start()
     {
         playButton.onClick.AddListener(() =>
         {
             SoundManager.Instance.PlayButtonClick();
-            SceneNavigation.Instance.LoadScene(Scenes.Game);
+
+            SceneNavigation.Instance.LoadScene(Scenes.Video);
         });
 
         exitButton.onClick.AddListener(() =>

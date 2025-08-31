@@ -36,7 +36,7 @@ public class SpiralProjectile : MonoBehaviour
         Vector2 tangent = new Vector2(-dirToCenter.y, dirToCenter.x);
 
       
-        velocity += dirToCenter * gravityStrength * Time.deltaTime;
+        velocity += gravityStrength * Time.deltaTime * dirToCenter;
 
       
         //    scale it by current speed to "curve" inward

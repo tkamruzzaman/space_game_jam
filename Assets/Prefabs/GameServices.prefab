@@ -30,6 +30,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2247068403181756082}
   - {fileID: 5928598465868949012}
   - {fileID: 8067459567328719292}
   m_Father: {fileID: 0}
@@ -133,11 +134,11 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_Resource: {fileID: 8300000, guid: b39acd733895f44daa325f2de9a36d09, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -267,7 +268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SoundManager
   musicSource: {fileID: 8933902292254570246}
   sfxSource: {fileID: 7337788216105270034}
-  buttonClickSound: {fileID: 0}
+  buttonClickSound: {fileID: 8300000, guid: 913ff19ea2d474125acc945c336abcff, type: 3}
 --- !u!1 &6705737431703575083
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,3 +398,77 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &1505642867149109201
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7112112862002953568}
+    m_Modifications:
+    - target: {fileID: 849543137341925731, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 849543137341925731, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 849543137341925731, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 849543137341925731, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 849543137341925731, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 849543137341925731, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 849543137341925731, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 849543137341925731, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 849543137341925731, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 849543137341925731, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804525374551715579, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2122928100232472369, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+      propertyPath: m_AudioOutputMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6407052704911097842, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+      propertyPath: videoUrl
+      value: https://eloquent-sundae-dbc95e.netlify.app/Space_Jam%20-%20Intro_vid.mp4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143215548972750772, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+      propertyPath: m_Name
+      value: VideoController
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+--- !u!4 &2247068403181756082 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 849543137341925731, guid: c9b16f94a8b4e43b89dfc76cf3764ce1, type: 3}
+  m_PrefabInstance: {fileID: 1505642867149109201}
+  m_PrefabAsset: {fileID: 0}

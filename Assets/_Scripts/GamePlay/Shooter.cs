@@ -21,6 +21,8 @@ public class Shooter : MonoBehaviour
                 //GameOver
                 Debug.Log("Lost");
             }
+            UIGamePlay.Instance.UpdateHealthBar(shootAmount / 5f);
+
         }
     }
 }

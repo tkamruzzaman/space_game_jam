@@ -17,22 +17,18 @@ public class OrbitController : MonoBehaviour
     [SerializeField]int orbitStep;
     int stepLeft;
 
-
-
     private void Awake()
     {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject); // Destroy duplicate
-            return;
-        }
         Instance = this;
-        DontDestroyOnLoad(gameObject); // Optional: keep across scenes
     }
+
     private void Start()
     {
         zoom = GetComponent<CameraZoom2D>();
         stepLeft = orbitStep;
+
+        zoom.SetTargetZoom(currentOrbit);
+        
         if (orbits.Count > 0)
             currentRadius = orbits[currentOrbit].radius; // Initialize radius
     }

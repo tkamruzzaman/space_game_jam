@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(VideoPlayer))]
 public class VideoPlayerController : MonoBehaviour
@@ -22,15 +23,20 @@ public class VideoPlayerController : MonoBehaviour
         if(videoPlayer){
             videoPlayer.url = videoUrl;
             videoPlayer.playOnAwake = false;
+            videoPlayer.playbackSpeed = 1.0f;
             videoPlayer.Prepare();
 
             videoPlayer.prepareCompleted += OnVideoPrepared;
+            videoPlayer.loopPointReached += (VideoPlayer vp) => { OnVideoFinished(); };
         }
 
         skipButton.onClick.AddListener(() => { 
-            videoPlayer.Stop(); 
-            videoCanvas.gameObject.SetActive(false);
+            SoundManager.Instance.PlayButtonClick();
+            OnVideoFinished();
         });
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        //SceneManager.sceneUnloaded += OnSceneUnloaded;
     }
 
     private void OnVideoPrepared(VideoPlayer vp)
@@ -41,8 +47,18 @@ public class VideoPlayerController : MonoBehaviour
         //PlayVideo();
     }
 
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if(scene.buildIndex == SceneNavigation.Instance.GetSceneIndex(Scenes.Video))
+        {
+            PlayVideo();
+        }
+    }
+
     public void PlayVideo( )
     {
+        videoCanvas.gameObject.SetActive(true);
+
         if (isVideoReady)
         {
             videoPlayer.Play();
@@ -57,6 +73,22 @@ public class VideoPlayerController : MonoBehaviour
     public void StopVideo()
     {
         videoPlayer.Stop();
+    }
+
+    private void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+        if(videoPlayer){
+            videoPlayer.prepareCompleted -= OnVideoPrepared;
+            videoPlayer.loopPointReached -= (VideoPlayer vp) => { OnVideoFinished(); };
+        }
+    }
+
+    public void OnVideoFinished()
+    {
+        StopVideo();
+        videoCanvas.gameObject.SetActive(false);
+        SceneNavigation.Instance.LoadScene(Scenes.Game);
     }
 }
 

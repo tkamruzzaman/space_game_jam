@@ -14,20 +14,19 @@ public class CameraZoom2D : MonoBehaviour
     float targetZoom = 4;
 
 
-
-
     Dictionary<int, float> zoomDict = new Dictionary<int, float>()
-{
-    { 0, 4f },
-    { 1, 4.5f },
-    { 2, 5 }
-};
+    {
+        { 0, 4f },
+        { 1, 4.5f },
+        { 2, 5f }
+    };
+
     void Update()
     {
-       
+
 
         // Smoothly interpolate the orthographic size
-       // vCam.m_Lens.OrthographicSize = Mathf.Lerp(vCam.m_Lens.OrthographicSize, targetZoom, Time.deltaTime * zoomSpeed);
+        // vCam.m_Lens.OrthographicSize = Mathf.Lerp(vCam.m_Lens.OrthographicSize, targetZoom, Time.deltaTime * zoomSpeed);
         vCam.Lens.OrthographicSize = Mathf.Lerp(vCam.Lens.OrthographicSize, targetZoom, Time.deltaTime * zoomSpeed);
     }
 
