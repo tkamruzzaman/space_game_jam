@@ -11,15 +11,15 @@ public class CameraZoom2D : MonoBehaviour
     public float minZoom = 5f;             // Zoomed-in size
     public float maxZoom = 10f;            // Zoomed-out size
     public float zoomSpeed = 2f;            // How fast camera zooms
-    float targetZoom = 7;
+    float targetZoom = 4;
 
 
 
 
-    Dictionary<int, int> zoomDict = new Dictionary<int, int>()
+    Dictionary<int, float> zoomDict = new Dictionary<int, float>()
 {
-    { 0, 7 },
-    { 1, 6 },
+    { 0, 4f },
+    { 1, 4.5f },
     { 2, 5 }
 };
     void Update()
