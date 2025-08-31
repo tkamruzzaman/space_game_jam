@@ -19,6 +19,7 @@ public class Shooter : MonoBehaviour
             else
             {
                 //GameOver
+                Debug.Log("Lost");
             }
         }
     }

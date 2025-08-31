@@ -44,6 +44,10 @@ public class OrbitController : MonoBehaviour
         {
             HandleOrbitInput();
         }
+        else
+        {
+            Debug.Log("Lost");
+        }
         UpdateOrbitRadius();
         MoveAlongOrbit();
     }
