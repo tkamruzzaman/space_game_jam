@@ -6,8 +6,9 @@ public class OrbitController : MonoBehaviour
     public static OrbitController Instance { get; private set; }   
     [SerializeField] Transform center;
     public List<Orbit> orbits;
-
-    int currentOrbit = 0;
+    public GameObject child;
+    CameraZoom2D zoom;
+    [SerializeField]int currentOrbit = 0;
     float angle = 0f;
 
     float currentRadius = 0f;       // The current radius, lerped
@@ -15,6 +16,9 @@ public class OrbitController : MonoBehaviour
 
     [SerializeField]int orbitStep;
     int stepLeft;
+
+
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -27,6 +31,7 @@ public class OrbitController : MonoBehaviour
     }
     private void Start()
     {
+        zoom = GetComponent<CameraZoom2D>();
         stepLeft = orbitStep;
         if (orbits.Count > 0)
             currentRadius = orbits[currentOrbit].radius; // Initialize radius
@@ -55,7 +60,7 @@ public class OrbitController : MonoBehaviour
         // Only update if orbit changed
         stepLeft -= (newOrbit != currentOrbit) ? 1 : 0;
         currentOrbit = newOrbit;
-
+        zoom.SetTargetZoom(currentOrbit);
          Debug.Log(stepLeft);
     }
 
@@ -73,11 +78,16 @@ public class OrbitController : MonoBehaviour
         angle += orbits[currentOrbit].speed * Time.deltaTime;
         if (angle > 360f) angle -= 360f;
 
+        // Calculate new position
         float x = center.position.x + currentRadius * Mathf.Cos(angle);
         float y = center.position.y + currentRadius * Mathf.Sin(angle);
-
         transform.position = new Vector3(x, y, transform.position.z);
+
+        // Make child face outwards
+        Vector3 direction = (transform.position - center.position).normalized; // from center to object
+        child.transform.up = direction; // aligns the child's local Y-axis outward
     }
+
 
     // Gizmos code unchanged
     private void OnDrawGizmos()
