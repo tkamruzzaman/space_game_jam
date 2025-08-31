@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -142,12 +142,12 @@ TextureImporter:
       name: Debris2_0
       rect:
         serializedVersion: 2
-        x: 649
-        y: 337
-        width: 55
-        height: 68
+        x: 650
+        y: 338
+        width: 53
+        height: 66
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
